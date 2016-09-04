@@ -81,7 +81,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SlimLauncher \
     LatinIME \
-    BluetoothExt
+    BluetoothExt \
+    Viper4Android
 
 #    SlimFileManager removed until updated
 
