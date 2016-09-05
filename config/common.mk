@@ -79,10 +79,10 @@ PRODUCT_PACKAGES += \
 
 # Extra Optional packages
 PRODUCT_PACKAGES += \
-    SlimLauncher \
     LatinIME \
     BluetoothExt \
-    Viper4Android
+    Viper4Android \
+    NovaLauncher
 
 #    SlimFileManager removed until updated
 
