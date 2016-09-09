@@ -182,11 +182,11 @@ endif
 #endif
 
 ifeq ($(SLIM_BUILD_TYPE),DM)
-    SLIM_POSTFIX := $(shell date +"%Y%m%d")
+    SLIM_POSTFIX := -$(shell date +"%Y%m%d")
 endif
 
 ifndef SLIM_POSTFIX
-    SLIM_POSTFIX := $(shell date +"%Y%m%d-%H%M")
+    SLIM_POSTFIX := -$(shell date +"%Y%m%d-%H%M")
 endif
 
 PLATFORM_VERSION_CODENAME := $(SLIM_BUILD_TYPE)
